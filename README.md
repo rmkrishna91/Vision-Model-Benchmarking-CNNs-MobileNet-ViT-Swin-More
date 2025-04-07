@@ -25,7 +25,7 @@ To benchmark various image classification models on the same dataset using consi
 
 ## 📈 Performance Comparison
 
-![Model Accuracy Comparison](./model_comparison.png)
+![Model Accuracy Comparison](./accuracies.png)
 
 > The Swin Transformer outperforms all other models on the validation dataset, closely followed by ViT and EfficientNet.
 
