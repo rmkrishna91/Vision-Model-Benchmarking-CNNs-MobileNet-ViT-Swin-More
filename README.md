@@ -42,7 +42,7 @@ To benchmark various image classification models on the same dataset using consi
 ---
 
 ## 📦 Dataset Structure
-
+The dataset consists of 7 classes representing various plant disease categories. 
 ### 🏷️ Class Labels
 
 | Class         | Label |
@@ -54,4 +54,9 @@ To benchmark various image classification models on the same dataset using consi
 | Pest          | 4      |
 | Phytopthora   | 5      |
 | Virus         | 6      |
+## 🖼️ Sample Images from Dataset
+
+Below is a visual sample from each class.
+
+![Sample Images](assets/sample_grid.png)
 
