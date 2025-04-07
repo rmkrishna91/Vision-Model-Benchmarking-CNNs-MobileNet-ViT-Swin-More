@@ -1,25 +1,57 @@
-📊 Vision Models Playground: CNNs vs Transformers
+# 📊 Vision Models Playground: CNNs vs Transformers
 
-A comprehensive comparison of modern image classification models including CNN-based architectures (ResNet, MobileNet, EfficientNet) and Transformer-based models (ViT, Swin Transformer) on a custom multi-class dataset.
-🧠 Project Objective
+This repository presents a comprehensive comparison of deep learning models for image classification, including both Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs). The goal is to evaluate their performance on a 7-class image classification dataset and analyze their trade-offs.
 
-The goal of this project is to evaluate and compare the performance of various state-of-the-art deep learning models for image classification. We tested both convolutional neural networks and vision transformers to understand their strengths and trade-offs on a 7-class classification task.
-📁 Models Compared
+---
 
-Model	Architecture Type	Validation Accuracy (%)
-Swin Transformer	Vision Transformer	92.892
-ViT (B-16)	Vision Transformer	90.897
-MobileNet V3 (Large)	Lightweight CNN	89.152
-EfficientNet B0	Scalable CNN	90.149
-ResNet18	Classic CNN	89.152
-Custom CNN	Baseline CNN	61.600
-🛠️ Tech Stack
+## 🧠 Project Objective
 
-PyTorch
-TorchVision
-scikit-learn
-Matplotlib / Seaborn
-Jupyter Notebooks / Kaggle Notebooks
-📈 Visualization
+To benchmark various image classification models on the same dataset using consistent training, validation, and evaluation strategies — and identify the best-performing architecture for the task.
 
-The Swin Transformer outperformed other models in validation accuracy, followed closely by ViT and EfficientNet B0.
+---
+
+## 🚀 Models Evaluated
+
+| Model                | Type                | Validation Accuracy (%) |
+|---------------------|---------------------|--------------------------|
+| **Swin Transformer**     | Vision Transformer   | **92.892**               |
+| ViT (B-16)           | Vision Transformer   | 90.897                   |
+| EfficientNet B0      | CNN (Efficient)      | 90.149                   |
+| MobileNet V3 Large   | CNN (Lightweight)    | 89.152                   |
+| ResNet18             | CNN (Baseline)       | 89.152                   |
+| Custom CNN           | CNN (From Scratch)   | 61.600                   |
+
+---
+
+## 📈 Performance Comparison
+
+![Model Accuracy Comparison](./model_comparison.png)
+
+> The Swin Transformer outperforms all other models on the validation dataset, closely followed by ViT and EfficientNet.
+
+---
+
+## 🛠️ Tech Stack
+
+- PyTorch
+- TorchVision
+- Scikit-learn
+- Matplotlib
+- Jupyter / Kaggle Notebooks
+
+---
+
+## 📦 Dataset Structure
+
+### 🏷️ Class Labels
+
+| Class         | Label |
+|---------------|--------|
+| Bacteria      | 0      |
+| Fungi         | 1      |
+| Healthy       | 2      |
+| Nematode      | 3      |
+| Pest          | 4      |
+| Phytopthora   | 5      |
+| Virus         | 6      |
+
