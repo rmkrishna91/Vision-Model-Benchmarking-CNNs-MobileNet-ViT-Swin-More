@@ -41,7 +41,8 @@ To benchmark various image classification models on the same dataset using consi
 
 ---
 
-## 📦 Dataset Structure
+## 📦 Dataset
+The dataset used in this project is the [Potato Leaf Disease Dataset in Uncontrolled Environment](https://www.kaggle.com/datasets/nirmalsankalana/potato-leaf-disease-dataset) available on Kaggle.
 The dataset consists of 7 classes representing various plant disease categories. 
 ### 🏷️ Class Labels
 
