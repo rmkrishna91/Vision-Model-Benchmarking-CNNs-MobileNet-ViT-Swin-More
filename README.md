@@ -58,5 +58,5 @@ The dataset consists of 7 classes representing various plant disease categories.
 
 Below is a visual sample from each class.
 
-![Sample Images](assets/sample_grid.png)
+![Sample Images](./sample_grid.png)
 
